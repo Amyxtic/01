@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(
+      180deg,
+      rgba(150, 70, 255)0%,
+      rgba(58, 188, 248)100%
+
+    );
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5px solid greenyellow;
+    position: relative;
+    margin-top: 30px;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 2px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1px;
+}
+
+ul p{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: right;
+    padding: 16px;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.linker{
+    justify-content: right;
+    text-align: right;
+}
+
+main a{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+li p{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 100px;
+}
+
+li p:hover{
+    color: greenyellow;
+}
+
+
+
+li a{
+    margin-right: 28px;
+    justify-content: space-between 30px;
+}
+
+ul li p{
+    font-size: 18px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.texto{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-inline: 3%;
+    justify-content: center;
+    color: white;
+}
+
+main img{
+    width: 300px;
+    height: 150px;
+    border-radius: 5%;
+    border: 5px inset greenyellow;
+    position: relative;
+    margin-top: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer a{
+    margin: 20px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+  }
+  
+  footer p{
+    margin-top: 2px;
+    color: black;
+  }
+
+  .container{
+    padding: 0px 320px;
+  }
+
+  footer p:hover{
+    color: greenyellow;
+  }
+
+  footer img{
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+
+
+  
